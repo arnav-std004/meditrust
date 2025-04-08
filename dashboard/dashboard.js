@@ -72,3 +72,14 @@ form.addEventListener("submit", async (e) => {
   await setDoc(doc(db, "users", user.uid), formData, { merge: true });
   alert("Profile updated successfully.");
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleButton = document.getElementById("menuToggle");
+  const sidebar = document.querySelector(".sidebar");
+
+  if (toggleButton && sidebar) {
+    toggleButton.addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+    });
+  }
+});
+

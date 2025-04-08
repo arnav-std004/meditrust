@@ -19,7 +19,7 @@ body::before {
   z-index: -1;
 }
 
-/* Sidebar fixed left */
+/* Sidebar */
 .sidebar {
   width: 220px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -31,6 +31,7 @@ body::before {
   height: 100vh;
   backdrop-filter: blur(8px);
   z-index: 1;
+  transition: left 0.3s ease;
 }
 
 .sidebar h2 {
@@ -57,7 +58,7 @@ body::before {
   text-decoration: underline;
 }
 
-/* Container pushes content next to sidebar */
+/* Container */
 .dashboard-container {
   display: flex;
   margin-left: 220px;
@@ -68,7 +69,7 @@ body::before {
   box-sizing: border-box;
 }
 
-/* Frosted glass main content */
+/* Main content */
 .main-content {
   width: 100%;
   max-width: 800px;
@@ -80,7 +81,7 @@ body::before {
   color: white;
 }
 
-/* Form styling */
+/* Form */
 form {
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
@@ -124,4 +125,46 @@ button {
 
 button:hover {
   background-color: #00a3c8;
+}
+
+/* Sidebar toggle button */
+.menu-toggle {
+  display: none;
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+  background-color: #027cce;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sidebar {
+    left: -250px;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .dashboard-container {
+    margin-left: 0;
+    padding: 60px 10px 20px;
+    flex-direction: column;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }

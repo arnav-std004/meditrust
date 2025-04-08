@@ -7,7 +7,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Tamil",
     qualification: "MBBS, MD, DM",
-    image: "https://randomuser.me/api/portraits/men/75.jpg"
+    image: "images/17.jpg"
   },
   {
     name: "Dr. Anjali Iyer",
@@ -47,7 +47,7 @@ const doctors = [
     days: "Mon - Fri",
     languages: "English | Hindi",
     qualification: "MBBS, MCh",
-    image: "https://randomuser.me/api/portraits/men/30.jpg"
+    image: "images/18.jpg"
   },
   {
     name: "Dr. Manoj Rathi",
@@ -57,7 +57,7 @@ const doctors = [
     days: "Tue - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, MD, DM",
-    image: "https://randomuser.me/api/portraits/men/71.jpg"
+    image: "images/19.jpg"
   },
   {
     name: "Dr. Karan Sinha",
@@ -77,7 +77,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, DM Neuro",
-    image: "https://randomuser.me/api/portraits/women/70.jpg"
+    image: "images/16.jpg"
   },
   {
     name: "Dr. Meena Vaidya",
@@ -87,7 +87,7 @@ const doctors = [
     days: "Mon - Fri",
     languages: "English | Marathi",
     qualification: "MBBS, MS, MCh",
-    image: "https://randomuser.me/api/portraits/women/18.jpg"
+    image: "images/20.jpg"
   },
   {
     name: "Dr. Tarun Agarwal",
@@ -127,7 +127,7 @@ const doctors = [
     days: "Mon - Thu",
     languages: "English | Tamil",
     qualification: "MBBS, MS",
-    image: "https://randomuser.me/api/portraits/women/26.jpg"
+    image: "images/21.jpg"
   },
   {
     name: "Dr. Anusha Naik",
@@ -137,7 +137,7 @@ const doctors = [
     days: "Mon - Fri",
     languages: "English | Marathi",
     qualification: "MBBS, DM",
-    image: "https://randomuser.me/api/portraits/women/76.jpg"
+    image: "images/22.jpg"
   },
   {
     name: "Dr. Reena Shah",
@@ -147,7 +147,7 @@ const doctors = [
     days: "Tue - Sat",
     languages: "English | Gujarati",
     qualification: "MBBS, MD, DM",
-    image: "https://randomuser.me/api/portraits/women/63.jpg"
+    image: "images/23.jpg"
   },
   {
     name: "Dr. Rakesh Menon",
@@ -167,7 +167,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Telugu",
     qualification: "MBBS, MCh",
-    image: "https://randomuser.me/api/portraits/men/28.jpg"
+    image: "images/24.jpg"
   },
   {
     name: "Dr. Meenal Shetty",
@@ -177,7 +177,7 @@ const doctors = [
     days: "Mon - Fri",
     languages: "English | Kannada",
     qualification: "MBBS, DM",
-    image: "https://randomuser.me/api/portraits/women/74.jpg"
+    image: "images/25.jpg"
   },
   {
     name: "Dr. Rajeev Sharma",
@@ -187,7 +187,7 @@ const doctors = [
     days: "Tue - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, MCh",
-    image: "https://randomuser.me/api/portraits/men/25.jpg"
+    image: "images/26.jpg"
   },
   {
     name: "Dr. Rajan Kumar",
@@ -197,7 +197,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, DM",
-    image: "https://randomuser.me/api/portraits/men/73.jpg"
+    image: "images/27.jpg"
   },
   {
     name: "Dr. Siddharth Nair",
@@ -217,7 +217,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Malayalam",
     qualification: "MBBS, DM Cardio",
-    image: "https://randomuser.me/api/portraits/women/60.jpg"
+    image: "images/28.jpg"
   },
   {
     name: "Dr. Sanjana Paul",
@@ -227,7 +227,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Bengali",
     qualification: "MBBS, MS",
-    image: "https://randomuser.me/api/portraits/women/29.jpg"
+    image: "images/29.jpg"
   },
   {
     name: "Dr. Aman Verma",
@@ -237,7 +237,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, DM Cardiology",
-    image: "https://randomuser.me/api/portraits/men/62.jpg"
+    image: "images/30.jpg"
   },
   {
     name: "Dr. Priya Rajan",
@@ -257,7 +257,7 @@ const doctors = [
     days: "Mon - Fri",
     languages: "English | Punjabi",
     qualification: "MBBS, DM",
-    image: "https://randomuser.me/api/portraits/women/72.jpg"
+    image: "images/31.jpg"
   },
   {
     name: "Dr. Divya Reddy",
@@ -287,7 +287,7 @@ const doctors = [
     days: "Mon - Fri",
     languages: "English | Hindi",
     qualification: "MBBS, DM",
-    image: "https://randomuser.me/api/portraits/men/65.jpg"
+    image: "images/32.jpg"
   },
   {
     name: "Dr. Raghav Bansal",
@@ -297,7 +297,7 @@ const doctors = [
     days: "Tue - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, DM",
-    image: "https://randomuser.me/api/portraits/men/68.jpg"
+    image: "images/33.jpg"
   },
   {
     name: "Dr. Arjun Kapoor",
@@ -307,7 +307,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Hindi",
     qualification: "MBBS, MCh Urology",
-    image: "https://randomuser.me/api/portraits/men/20.jpg"
+    image: "images/34.jpg"
   },
   {
     name: "Dr. Nikita Joshi",
@@ -327,7 +327,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Marathi",
     qualification: "MBBS, MD",
-    image: "https://randomuser.me/api/portraits/women/67.jpg"
+    image: "images/35.jpg"
   },
   {
     name: "Dr. Kiran Rao",
@@ -337,7 +337,7 @@ const doctors = [
     days: "Mon - Sat",
     languages: "English | Telugu",
     qualification: "MBBS, DM Cardio",
-    image: "https://randomuser.me/api/portraits/men/66.jpg"
+    image: "images/36.jpg"
   }
 ];
 

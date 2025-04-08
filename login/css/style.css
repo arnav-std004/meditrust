@@ -42,7 +42,7 @@ input {
 }
 
 .btn {
-  background: linear-gradient(to right, #1e90ff, #007bff);
+  background: linear-gradient(to right, #111010, #00a3c8);
   color: white;
   border: none;
   padding: 10px;
@@ -57,7 +57,7 @@ input {
 }
 
 .switch-form {
-  color: blue;
+  color: rgb(25, 0, 255);
   cursor: pointer;
   text-decoration: underline;
 }
@@ -100,7 +100,7 @@ input {
 
 .popup-content button {
   padding: 10px 20px;
-  background: linear-gradient(to right, #007bff, #1e90ff);
+  background: linear-gradient(to right, #00a3c8, #0b0c0c);
   color: white;
   border: none;
   border-radius: 8px;
@@ -110,7 +110,7 @@ input {
 }
 
 .popup-content button:hover {
-  background: linear-gradient(to right, #1e90ff, #007bff);
+  background: linear-gradient(to right, #0d0d0e, #00a3c8);
   transform: scale(1.05);
 }
 
